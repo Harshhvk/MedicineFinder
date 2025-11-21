@@ -1,0 +1,29 @@
+{
+  "name": "nearest-medicine-finder",
+  "version": "1.0.0",
+  "description": "A web application to find nearby medicine sellers and manage requests.",
+  "main": "src/medcinefinder.js",
+  "scripts": {
+    "start": "node src/medcinefinder.js",
+    "dev": "nodemon src/medcinefinder.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "medicine",
+    "finder",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
